@@ -1,0 +1,12 @@
+{
+  "name": "beamup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
