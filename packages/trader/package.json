@@ -1,0 +1,32 @@
+{
+  "name": "@edbb/trader",
+  "version": "0.0.0",
+  "description": "BB Unit finds you the best deals.",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "redis": "yarn redis-commander --open"
+  },
+  "dependencies": {
+    "@amazebot/config": "^0.1.1",
+    "@rauschma/stringio": "^1.4.0",
+    "JSONStream": "^1.3.5",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "dargs": "^6.1.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.3.1",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "redis-commander": "^0.6.4",
+    "standard": "^12.0.1"
+  }
+}
