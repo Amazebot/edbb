@@ -15,7 +15,7 @@
     "@amazebot/config": "^0.1.1",
     "@rauschma/stringio": "^1.4.0",
     "JSONStream": "^1.3.5",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "dargs": "^6.1.0",
     "fuzzy": "^0.1.3",
